@@ -52,6 +52,7 @@ def 50unique(fil)
 # Takes a FASTA file. Takes away the columns where no amino acid appers more
 # than twice.
 # Call 50unique and column. Caled by ? 
+##
 def MoreThan2(fil):
     seq_dic=50unique(fil)
     columns=column.column(fil)
